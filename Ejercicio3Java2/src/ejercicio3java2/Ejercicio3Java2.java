@@ -18,7 +18,6 @@ public class Ejercicio3Java2 {
      */
     public static void main(String[] args) {
         int x[] = new int[10];
-        int y[] = new int[10];
         int z;
         int cont;
         Scanner sc = new Scanner(System.in);
@@ -42,7 +41,8 @@ public class Ejercicio3Java2 {
         }
         System.out.println("\nEl array con los primos primero es: ");
 
-//        ----------------------------------------------------------------------------------------;
+//        ----------------------------------------------------------------------------------------
+
         for (int i = 0; i < 10; i++) {
             System.out.print(" " + i + "\t ");
         }
